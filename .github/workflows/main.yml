@@ -9,7 +9,7 @@ jobs:
       id: hello
       uses: ghogen/labeler
       with:
-        who-to-greet: 'Gordon J. Hogenson'
+        who-to-greet: 'Gordon Hogenson'
     # Use the output from the `hello` step
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
