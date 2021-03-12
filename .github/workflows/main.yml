@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: ghogen/labeler@v1.1
+      uses: ghogen/labeler@v1
       with:
         who-to-greet: 'Gordon Hogenson'
     # Use the output from the `hello` step
